@@ -1,0 +1,112 @@
+﻿HOLA MUNDO
+
+lzambada@itmexicali.edu.mx
+
+Cubìculo: F cub. 12 de 9 am a 11 am
+
+Examenes: 30%
+Practicas y ejercicios: 30%
+Proyectos: 30%
+Participaciòn y trabajos: 10%
+
+Leer la historia de las telecomunicaciones y del internet
+
+
+25/08/2023
+
+Internet
+
+Prehistoria
+humo
+silvidos
+gruñidos
+
+Historia
+tabletas de babilonia
+
+Señales electromagnèticas de telègrafo
+
+Transmisión de sonido a travez de cables con el teléfono
+
+Transmisión de voz en ambos sentidos y a través del aire.
+
+Transmisión de imágenes a traves de distintas redes (telegráficas, antenas y luego satélites).
+
+Proyecto HAARP net en 1960, desarrollo de comunicaciones seguras, creación de redes públicas separadas de las militares.
+
+
+El internet es una red de área extensa que itnerconecta redes de datos y redes de área local de multitudde todo el mundo, que comparten la misma arquitectura (TCP/IP).
+
+Estructura: 
+Redes de comunicaciones interconectadas
+Servidores de info
+Ordenadores clientes
+Servidores de información
+Arquitectura cliente/servidor*
+
+
+28 08 2023
+Arquitectura de internet: capas modelo osi
+
+Fìsico, enlace de datos, ip, tcp, http, etc.
+
+client/serv: Servidor escucha en un puerto a un cliente, donde se hacen solicitudes y el servidor les da respuesta usando un protocolo a través de la red física.
+
+Servicios de internet:
+
+Básicos
+	Acceso remoo
+	Correo
+	Transferencia de ficeros
+	Servicios de conversación
+Avanzados:
+	World Wide Web
+Tendencia a la integración de servicios.
+
+Internet: Arquitectura y plataforma de protocolos, redes, etc de las telecomunicaciones.
+Web: Aplicaciones que dan servicios y se ejecutan sobre el internet.
+
+Hypertext: Texto que contiene enlaces con otros documentos.
+Hipermedio: son medios con enlaces a otros documentos hipermedia u otros medios como imágenes, audios, etc.
+
+WWW Prestaciones: 
+	Integración Progresiva de todo tipo de documentos en la web
+	Su poder reside en la facilidad de integración y la sencillez de sus UI
+	
+Historia: ZZZ
+
+WWW: Usa arquitectura distribuida client/serv: distribuida: es heterogenea
+Cliente: programa que envia peticiones
+Servior: envia documentos pedidos
+CLiente puede estar en una máquina diferente al serv, este último almacena documentos y el cliente los presenta
+
+Leer como resolver heterogeneidad en internet*****
+
+========== 29/8/23 ==========
+
+Se soluciona por diferentes propuestas, las principales son: Uso de estándares.
+
+Existe la capa middleware, donde se establecen los estándares de comunicación y se estandariza la forma de transferir datos en ese lugar, para que cualquier otra arquitectura lo pueda leer y utilizar, a traves de las capas.
+
+HTML: Lenguaje de marcado por hipertexto, se usa para crear y reconocer documentos hipermedia, permite separar la presentación del contenido
+Es un conjunto de caracteres ASCII de 7 bits, con código para:
+	Estilos del texto
+	Títulos de documentos
+	secciones
+	Párrafos
+	Listas
+	Hiperenlaces
+	Formularios
+
+URL representa direcciones de documentos himpermediales con la localización explícita.
+	Casi todos los servicios de internet tienen un tipo de URL
+	La primera parte es el protocolo
+	Después es la dirección de la computadora donde reside el documento.
+	Posteriormente el puerto, cuando es necesario.
+	El resto es el camino y nombre del fichero.
+
+
+
+
+
+
