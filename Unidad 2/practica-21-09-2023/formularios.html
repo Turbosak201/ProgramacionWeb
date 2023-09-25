@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introducción a los formularios en html</h1>
+    <form action="AppReceptor" method="get" accept="tipoContenido"> 
+    <!--Aqui se especifica el programa receptor, y tmbn se debe especificar 
+    el método de envío. get, post. POST es mejor para formularios-->
+        Escribe tu nombre: <input type="text" placeholder="Nombre"><br>
+        Escribe tu edad: <input type="number"  placeholder="edad" max="10"><br>
+        Escribe tu fecha de nacimiento: <input type="date"><br>
+        Escribe tu contraseña: <input type="password" name="" id=""  placeholder="contraseña"><br>
+        Selecciona una opción: <br><input type="radio" name="Sexo" value="femenino" checked="checked" id="">Femenino
+        <input type="radio" name="Sexo" value="masculino" checked="checked" id="">Masculino<br>
+        ¿Cuales son tus comidas favorias? <br><input type="checkbox" name="Comida" id="">Mexicana
+        <input type="checkbox" name="Comida" id="">Tex-mex<input type="checkbox" name="Comida" id="">China<br>
+        <input type="image" src="emergency_button.webp" alt="Imagen">
+        <input type="submit" name="" id="" value="Enviar">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

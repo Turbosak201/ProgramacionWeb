@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes compuestas en mapa</title>
+    <style>
+        body{
+            background-image: url("cat-pet.jpg");
+            background-repeat: repeat;
+        }
+    </style>
+</head>
+<body>
+    <h2>Mapa en imagen</h2>
+    <p>Hacer click en el gato, gato2 o gato3 para ir a una nueva página relacionada.</p>
+    <img src="cat.jpg" alt="Michi tiezo" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+        <area shape="rect" coords="34, 44, 270, 350" alt="gato1" href="gato1.html">
+        <area shape="rect" coords="290, 172, 333, 250" alt="gato2" href="gato2.html">
+        <area shape="circle" coords="337, 300, 44" alt="gato3" href="gato3.html">
+        
+    </map>
+    <picture>
+        <source media="(min-width: 650px)" srcset="cat.jpg">
+        <source media="(min-width: 465px)" srcset="gato2.jpg">
+        <source media="(min-width: 465px)" srcset="cat-pet.jpg">
+        <img src="0_Stray-cat.jpg">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios Básicos</h1>
+    <form action="mailto:sakfernandez@gmail.com">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="" id="nombre">
+        <br>
+        <br>
+        <br>
+        <label for="comentario">Comentarios: </label>
+        <textarea id="comentario" cols="50" rows="5"></textarea>
+        <label for="auto">Automovil:</label>
+        <select id="auto" size="1" multiple="true">
+            <option value="audi">Audi</option>
+            <option value="ford">Ford</option>
+            <option value="fiat">Fiat</option>
+            <option value="vw">VolksWagen</option>
+        </select><br><br>
+
+        <label for="navegador">¿Qué navegador usas?</label>
+        <input list="navegador">
+        <datalist id="navegador">
+            <option value="fox"></option>
+            <option value="ms"></option>
+            <option value="chrome"></option>
+            <option value="apple"></option>
+        </datalist>
+        
+        <br><br>
+        <fieldset>
+            <legend>Campos de datos especiales</legend><br>
+            <label for="edad">Edad: </label>
+            <input type="number" name="" id="edad"><br>
+            <label for="ojos">Color de ojos: </label>
+            <input type="color" name="" id="ojos"><br><br>
+        </fieldset>
+        <label for="mes">Mes: </label>
+        <input type="month" name="" id="mes"><br>
+        <label for="fecha">Fecha:</label>
+        <input type="datetime-local" name="" id="fecha">
+
+        rango: <input type="range" name="" id="rango" min="0" max="100">
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <button type="button" onclick="alert('Hola programador')">alo</button>
+    </form>
+</body>
+</html>

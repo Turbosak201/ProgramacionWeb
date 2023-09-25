@@ -1,0 +1,55 @@
+=============== UNIDAD 2 ===============
+
+31 08 2023
+
+HTML: HyperText Markup Language, permite estructurar las páginas web y acilita la interacción con el usuario a través de los formularios con posibilidad de introducir datos.
+
+Páginas web: Textos ASCII escritos en html
+
+Compuesta por 3 elementos: 
+	HTML - Info y Estructura
+	CSS - Estilo
+	Scripts - Interactividad
+
+Productor: yo
+Consumidor: lector de páginas
+
+HTML orece conjunto de etiquetas para incluir elementos en una página web.
+Esta formado por: 
+    Texto
+    Valores simbólicos
+        acute
+        tilde
+        cedill
+    Etiquetas HTML o directivas
+    
+ETIQUETAS:
+Situadas entre dos marcas: < y >
+<etiqueta>
+Tipos: 
+    Abiertas <br>
+    Delimitadoras <B> cde </B>
+    Opcionales <P></P>
+
+En las etiquetas se le pueden agregar atributos
+<NOMBRE_ETIQUETA atributo="valor" atributo2="valor2"[...]> </NOMBRE_ETIQUETA>
+Algunas etiquetas requieren uso obligatorio de algun atributo.
+
+Comentarios: <!-- ...... -->
+
+rutas: http://maquina/camino/archivo.html
+
+html:
+    Errora etiquetas desconocidas
+    etiquetas con atributos erroneos toma el valor por deecto
+    Combinación de etiquetas no permitidas las ignora.
+
+Estructura general:
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+
+<hr>: LINEA HORIZONTAL

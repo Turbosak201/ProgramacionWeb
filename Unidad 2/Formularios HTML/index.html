@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Formulario</title>
+</head>
+<body bgcolor="beige">
+    
+    <h1>Cuestionario sobre Gustos personales</h1>
+    <form action="" method="get" > 
+    <!--Aqui se especifica el programa receptor, y tmbn se debe especificar 
+    el método de envío. get, post. POST es mejor para formularios-->
+
+    <div style="display: flex; background-color: lightblue; border: solid 3px red; border-radius: 15px; justify-content: space-between">
+    <fieldset style="width: 50%; border-radius: 15px; ">
+        <legend>Datos personales</legend><br>
+        Escribe tu nombre: <input type="text" placeholder="Nombre"><br>
+        Escribe tu edad: <input type="number"  placeholder="edad" min="18"><br>
+        Escribe tu fecha de nacimiento: <input type="date"><br>
+        Escribe una contraseña: <input type="password" name="" id=""  placeholder="contraseña"><br>
+        Selecciona una opción: <br><input type="radio" name="Sexo" value="femenino" checked="checked" id="">Femenino
+        <input type="radio" name="Sexo" value="masculino" checked="checked" id="">Masculino<br>
+        <label for="ojos">Color de ojos: </label>
+        <input type="color" name="" id="ojos"><br><br>
+    </fieldset>
+    <img src="https://media.tenor.com/GU-otnw1RB0AAAAM/dancing-cat.gif" style="margin-left: 50px; border-radius: 15px;">
+    </div>
+    <br>
+    <div style="display: flex; background-color: rgb(248, 200, 200); border: double 10px blue; border-radius: 15px; justify-content: space-around">
+        <fieldset style="border-radius: 15px; ">
+            <legend>Datos personales</legend><br>
+            <label for="navegador">¿Cuales son tus comidas favorias?</label> <br>
+            <input list="navegador"><br>
+            <datalist id="navegador">
+                <option value="Mexicana"></option>
+                <option value="China"></option>
+                <option value="Italiana"></option>
+            </datalist>
+            <br>
+            <label for="auto">Automovil:</label>
+            <select id="auto" size="1" multiple="true">
+                <option value="audi">Audi</option>
+                <option value="ford">Ford</option>
+                <option value="fiat">Fiat</option>
+                <option value="vw">VolksWagen</option>
+            </select><br><br>
+        </fieldset>
+        <img src="https://media.tenor.com/FgaSQljaZVwAAAAC/dance-dog.gif" height="300px">
+    </div>
+        <input type="submit" name="" id="" value="Enviar cuestionario" onclick="alert('Cuestionario enviado exitosamente')">
+        <input type="reset" value="Reiniciar datos" onclick="alert('Datos borrados exitosamente')">
+    </form>
+    
+</body>
+</html>
